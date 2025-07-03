@@ -111,7 +111,7 @@ const Level: React.FC<LevelProps> = ({
               </div>
             </div>
 
-            <h4 className="font-bold text-lg mb-4 text-scratch-blue">6-Week Curriculum</h4>
+            <h4 className="font-bold text-lg mb-4 text-scratch-blue">12-Week Curriculum</h4>
             <div className="space-y-6">
               {weeklyContent.map((week) => (
                 <WeeklyContent key={week.week} {...week} />
@@ -150,69 +150,136 @@ const Curriculum: React.FC = () => {
       weeklyContent: [
         {
           week: 1,
-          topic: 'Introduction to Scratch',
+          topic: 'Exploration of Scratch',
           concepts: [
-            'Understanding the Scratch interface',
-            'Basic motion blocks',
-            'Simple sprite control',
-            'Creating first animations'
+            'What is Scratch?',
+            'Meeting Cat Sprite',
+            'Animating Sprite',
+            'Basic sprite movement'
           ],
-          project: 'Create an animated name with Malaysian elements'
+          project: 'Make your Sprite dance, jump, move around'
         },
         {
           week: 2,
-          topic: 'Storytelling Basics',
+          topic: 'Your World of Imagination',
           concepts: [
-            'Adding backgrounds and sprites',
-            'Basic costume changes',
-            'Simple dialogue',
-            'Event blocks (green flag, clicks)'
+            'Add new Sprites (Child\'s choice: Unicorn, Horse, Dog, Dragon, etc)',
+            'Choose backgrounds (Forest, Space, etc)',
+            'Use motion blocks for flying, jumping, hopping, walking, dancing',
+            'Use "say" blocks for character dialogue',
+            'Learn "when green flag clicked" to start stories'
           ],
-          project: 'Interactive Malaysian folktale'
+          project: 'Create ANOTHER/YOUR OWN scene'
         },
         {
           week: 3,
-          topic: 'Simple Animations',
+          topic: 'Create a Mini Story',
           concepts: [
-            'Loop blocks',
-            'Basic timing',
-            'Multiple sprite coordination',
-            'Sound effects'
+            'Add background and characters of choice',
+            'Make characters talk/interact with speech bubbles',
+            'Use the green flag to start',
+            'Basic storytelling structure'
           ],
-          project: 'Animated Malaysian festival celebration'
+          project: 'Interactive story with multiple characters'
         },
         {
           week: 4,
-          topic: 'Basic Game Mechanics',
+          topic: 'Interactive Lesson',
           concepts: [
-            'Mouse control',
-            'Simple collision detection',
-            'Score variables',
-            'Win/lose conditions'
+            'Use arrow keys or mouse to move Sprites',
+            'Use "go to" blocks',
+            'Add obstacles',
+            'Start movement when green flag is clicked'
           ],
-          project: 'Catch the Durian game'
+          project: 'Interactive navigation game'
         },
         {
           week: 5,
-          topic: 'Music and Art',
+          topic: 'Add Music or Sounds',
           concepts: [
-            'Sound blocks',
-            'Drawing tools',
-            'Costume editor',
-            'Rhythm and timing'
+            'Use sound blocks',
+            'Add sound effects',
+            'Change costumes with sounds',
+            'Audio-visual coordination'
           ],
-          project: 'Malaysian musical instrument simulator'
+          project: 'A mini project with music and sounds'
         },
         {
           week: 6,
-          topic: 'Final Project',
+          topic: 'Loops',
           concepts: [
-            'Project planning',
-            'Combining learned concepts',
-            'Basic debugging',
-            'Project presentation'
+            '"Forever" and "Repeat" blocks',
+            'Repeating movement (spinning, jumping, dancing)',
+            'Looping sounds',
+            'Nesting blocks inside loops'
           ],
-          project: 'Interactive Malaysian cultural showcase'
+          project: 'A cat that repeats a dance move 5 times'
+        },
+        {
+          week: 7,
+          topic: 'Create a Game (Part 1)',
+          concepts: [
+            'Add two Sprites',
+            'Use "touching" blocks',
+            'Add a score (1 point each)',
+            'Basic game mechanics'
+          ],
+          project: 'Create a game with one character and score tally'
+        },
+        {
+          week: 8,
+          topic: 'Create a Game (Part 2)',
+          concepts: [
+            'Interactive game elements',
+            'Make objects move',
+            'Add timer or more points',
+            'Game completion logic'
+          ],
+          project: 'Create a game and catch the object'
+        },
+        {
+          week: 9,
+          topic: 'Let\'s Animate a Festival',
+          concepts: [
+            'Use bright colors and music',
+            'Add fireworks background',
+            'Use loops for spinning or dancing',
+            'Cultural celebration themes'
+          ],
+          project: 'Malaysia Day or Eid Celebration animation'
+        },
+        {
+          week: 10,
+          topic: 'Make Your Own Robot',
+          concepts: [
+            'Choose your robot design',
+            'Assign dialogues to robot',
+            'Use keys to move robot arms',
+            'Interactive robot controls'
+          ],
+          project: 'Interactive robot with dialogue and movement'
+        },
+        {
+          week: 11,
+          topic: 'Scratch Remix',
+          concepts: [
+            'Open previous projects and add new ideas',
+            'Add more Sprites, music, backgrounds',
+            'Change storyline or theme',
+            'Save new versions ("My Project 2.0")'
+          ],
+          project: 'Remix and enhance a previous project'
+        },
+        {
+          week: 12,
+          topic: 'Scratch Talent Show',
+          concepts: [
+            'Share one project',
+            'Present 1-2 sentences about their creation',
+            'Give feedback to peers',
+            'Receive completion certificate'
+          ],
+          project: 'Final project presentation and peer feedback session'
         }
       ],
       icon: <Code size={24} />,
