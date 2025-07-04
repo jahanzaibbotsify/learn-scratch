@@ -134,11 +134,10 @@ const Curriculum: React.FC = () => {
       title: 'Young Creators',
       description: 'A fun, engaging introduction to coding through storytelling and simple games, perfect for young minds beginning their coding journey.',
       learningFocus: [
-        'Building confidence with computers',
-        'Understanding basic coding concepts',
-        'Developing creative thinking skills',
-        'Learning through play and exploration',
-        'Building digital literacy foundations'
+        'Build Confidence/Familiarize with using a computer',
+        'Understand basic coding in a fun way',
+        'Encourage creativity and imagination',
+        'Learn by playing and making things'
       ],
       teachingStyle: [
         'Visual and interactive learning',
@@ -152,10 +151,9 @@ const Curriculum: React.FC = () => {
           week: 1,
           topic: 'Exploration of Scratch',
           concepts: [
-            'What is Scratch?',
+            'What is scratch?',
             'Meeting Cat Sprite',
-            'Animating Sprite',
-            'Basic sprite movement'
+            'Animating Sprite'
           ],
           project: 'Make your Sprite dance, jump, move around'
         },
@@ -163,22 +161,21 @@ const Curriculum: React.FC = () => {
           week: 2,
           topic: 'Your World of Imagination',
           concepts: [
-            'Add new Sprites (Child\'s choice: Unicorn, Horse, Dog, Dragon, etc)',
-            'Choose backgrounds (Forest, Space, etc)',
-            'Use motion blocks for flying, jumping, hopping, walking, dancing',
-            'Use "say" blocks for character dialogue',
-            'Learn "when green flag clicked" to start stories'
+            'Add new Sprites (Child\'s choice, e.g. Unicorn, Horse, Dog, Dragon, etc)',
+            'Choose a background (Child\'s choice, e.g. Forest, Space, etc)',
+            'Use motion blocks to make characters fly, jump, hop, walk, dance',
+            'Use "say" blocks to make them talk',
+            'Learn "when green flag clicked" to start their created story'
           ],
           project: 'Create ANOTHER/YOUR OWN scene'
         },
         {
           week: 3,
-          topic: 'Create a Mini Story',
+          topic: 'Create a mini story',
           concepts: [
             'Add background and characters of choice',
-            'Make characters talk/interact with speech bubbles',
-            'Use the green flag to start',
-            'Basic storytelling structure'
+            'Make them talk/interact with speech bubbles',
+            'Use the green flag to start'
           ],
           project: 'Interactive story with multiple characters'
         },
@@ -186,10 +183,10 @@ const Curriculum: React.FC = () => {
           week: 4,
           topic: 'Interactive Lesson',
           concepts: [
-            'Use arrow keys or mouse to move Sprites',
+            'Use arrow keys or mouse to move around a Sprite',
             'Use "go to" blocks',
             'Add obstacles',
-            'Start movement when green flag is clicked'
+            'Learn how to start movement when the green flag is clicked'
           ],
           project: 'Interactive navigation game'
         },
@@ -199,17 +196,16 @@ const Curriculum: React.FC = () => {
           concepts: [
             'Use sound blocks',
             'Add sound effects',
-            'Change costumes with sounds',
-            'Audio-visual coordination'
+            'Change costumes with sounds'
           ],
-          project: 'A mini project with music and sounds'
+          project: 'A mini project'
         },
         {
           week: 6,
           topic: 'Loops',
           concepts: [
-            '"Forever" and "Repeat" blocks',
-            'Repeating movement (spinning, jumping, dancing)',
+            '"Forever" and "Repeat" Blocks',
+            'Repeating movement (e.g. spinning, jumping, dancing, etc)',
             'Looping sounds',
             'Nesting blocks inside loops'
           ],
@@ -217,23 +213,21 @@ const Curriculum: React.FC = () => {
         },
         {
           week: 7,
-          topic: 'Create a Game (Part 1)',
+          topic: 'Create a game (part 1)',
           concepts: [
             'Add two Sprites',
-            'Use "touching" blocks',
-            'Add a score (1 point each)',
-            'Basic game mechanics'
+            'Use "touching blocks"',
+            'Add a score (1 point each)'
           ],
-          project: 'Create a game with one character and score tally'
+          project: 'Create a game, one character required, and tally up your score'
         },
         {
           week: 8,
-          topic: 'Create a Game (Part 2)',
+          topic: 'Create a game (part 2)',
           concepts: [
-            'Interactive game elements',
-            'Make objects move',
-            'Add timer or more points',
-            'Game completion logic'
+            'Interactive game',
+            'Use an object and make it move',
+            'Add a timer or more points'
           ],
           project: 'Create a game and catch the object'
         },
@@ -243,19 +237,17 @@ const Curriculum: React.FC = () => {
           concepts: [
             'Use bright colors and music',
             'Add fireworks background',
-            'Use loops for spinning or dancing',
-            'Cultural celebration themes'
+            'Use loops for spinning or dancing'
           ],
-          project: 'Malaysia Day or Eid Celebration animation'
+          project: 'Malaysia Day or Eid Celebration'
         },
         {
           week: 10,
-          topic: 'Make Your Own Robot',
+          topic: 'Make your own Robot',
           concepts: [
-            'Choose your robot design',
-            'Assign dialogues to robot',
-            'Use keys to move robot arms',
-            'Interactive robot controls'
+            'Choose your robot',
+            'Assign dialogues',
+            'Use keys to move its arms'
           ],
           project: 'Interactive robot with dialogue and movement'
         },
@@ -263,10 +255,10 @@ const Curriculum: React.FC = () => {
           week: 11,
           topic: 'Scratch Remix',
           concepts: [
-            'Open previous projects and add new ideas',
-            'Add more Sprites, music, backgrounds',
-            'Change storyline or theme',
-            'Save new versions ("My Project 2.0")'
+            'Open a previous project and add new ideas',
+            'Choose what to add (e.g. more Sprites, music, background, etc)',
+            'Change the storyline or theme',
+            'Learn how to save the new file / versions ("My Project 2.0)'
           ],
           project: 'Remix and enhance a previous project'
         },
@@ -275,11 +267,11 @@ const Curriculum: React.FC = () => {
           topic: 'Scratch Talent Show',
           concepts: [
             'Share one project',
-            'Present 1-2 sentences about their creation',
-            'Give feedback to peers',
-            'Receive completion certificate'
+            'Say 1-2 sentences about what they built',
+            'Give feedback about the project to their peers',
+            'Receive a small certificate'
           ],
-          project: 'Final project presentation and peer feedback session'
+          project: 'Invite parents to join if possible'
         }
       ],
       icon: <Code size={24} />,
@@ -307,69 +299,117 @@ const Curriculum: React.FC = () => {
       weeklyContent: [
         {
           week: 1,
-          topic: 'Advanced Motion',
+          topic: 'Welcome to Scratch',
           concepts: [
-            'Coordinate system',
-            'Rotation styles',
-            'Custom movement patterns',
-            'Physics basics'
+            'Introduction to Scratch interface',
+            'Add and animate sprites',
+            'Change costumes and backgrounds',
+            'Use the Green Flag & Event blocks'
           ],
-          project: 'Malaysian sports simulation game'
+          project: 'Animate your name or favorite word with effects'
         },
         {
           week: 2,
-          topic: 'Variables & Scoring',
+          topic: 'Storytelling with Code',
           concepts: [
-            'Creating variables',
-            'Score tracking',
-            'Health systems',
-            'High score storage'
+            'Use scenes, dialogue, and timing (say, wait)',
+            'Switch backdrops for scene changes',
+            'Character costume changes'
           ],
-          project: 'Malaysian food collecting game'
+          project: 'Make a mini story (e.g. "The Lost Robot" or "Cat in the City")'
         },
         {
           week: 3,
-          topic: 'Conditional Logic',
+          topic: 'Loops & Repetition',
           concepts: [
-            'If-then statements',
-            'Multiple conditions',
-            'Boolean logic',
-            'State management'
+            'Learn repeat, forever, repeat until',
+            'Use loops for movement and sound'
           ],
-          project: 'Malaysian trivia quiz game'
+          project: 'Looping dance party or fireworks celebration'
         },
         {
           week: 4,
-          topic: 'Lists & Data',
+          topic: 'Keyboard Control',
           concepts: [
-            'Creating lists',
-            'Data storage',
-            'List operations',
-            'Dynamic content'
+            'Use when key pressed, point in direction, and move blocks',
+            'Move sprites with arrows'
           ],
-          project: 'Malaysian state and capital matcher'
+          project: 'Create a simple maze or movement-based challenge'
         },
         {
           week: 5,
-          topic: 'Custom Blocks',
+          topic: 'Let\'s Add Some Logic',
           concepts: [
-            'Function creation',
-            'Parameters',
-            'Code organization',
-            'Reusable code'
+            'Explore if and if-else statements',
+            'Make things happen because of touching colors or sprites'
           ],
-          project: 'Platform game with Malaysian landmarks'
+          project: 'Sprite responds when it collides with a wall or overlaps another sprite'
         },
         {
           week: 6,
-          topic: 'Final Project',
+          topic: 'Variables and Scores',
           concepts: [
-            'Advanced game mechanics',
-            'Multiple levels',
-            'Sound effects',
-            'Project optimization'
+            'Introduce variables (score, timer, lives)',
+            'Update variables in gameplay'
           ],
-          project: 'Malaysian cultural adventure game'
+          project: '"Catch the Falling Fruit" or a point-scoring platformer'
+        },
+        {
+          week: 7,
+          topic: 'Make It a Game!',
+          concepts: [
+            'Put controls, logic, and score together',
+            'Implement a start screen and win/lose message'
+          ],
+          project: 'Design a complete mini-game such as "Avoid the Spikes" or "Jumping Ninja"'
+        },
+        {
+          week: 8,
+          topic: 'Broadcast & Multi-Screen Projects',
+          concepts: [
+            'Use broadcast to switch between scenes or levels',
+            'Create intro screens, instructions, and endings'
+          ],
+          project: 'Create a story or game with 2–3 scenes or levels'
+        },
+        {
+          week: 9,
+          topic: 'Quizzes & Interactive Games',
+          concepts: [
+            'Develop Q&A type games',
+            'Employ ask and answer blocks',
+            'Monitor correct/incorrect answers using variables'
+          ],
+          project: 'Develop a quiz game: "Know Your Animals" or "Space Facts Challenge"'
+        },
+        {
+          week: 10,
+          topic: 'Sound, Music & Design',
+          concepts: [
+            'Add sound effects and background music',
+            'Enhance sprite appearances using costume editor',
+            'Create menus, assist buttons, and transitions'
+          ],
+          project: 'Refine your favorite project from past weeks'
+        },
+        {
+          week: 11,
+          topic: 'Final Project Build',
+          concepts: [
+            'Design and construct their own original concept',
+            'Put together ideas: animation, games, or quiz'
+          ],
+          project: 'Make Your Own Game or Interactive Story'
+        },
+        {
+          week: 12,
+          topic: 'Scratch Showcase & Celebration',
+          concepts: [
+            'Showcase their final projects',
+            'Exchange peer critiques',
+            'Share progress with badges or certificates'
+          ],
+          project: 'Present Their Own Imaginative Creations!'
         }
       ],
       icon: <PuzzleIcon size={24} />,
@@ -397,69 +437,120 @@ const Curriculum: React.FC = () => {
       weeklyContent: [
         {
           week: 1,
-          topic: 'Advanced Game Mechanics',
+          topic: 'Scratch Refresher & Creative Kickoff',
           concepts: [
-            'Complex collision detection',
-            'Physics engine basics',
-            'Smooth animations',
-            'Game state management'
+            'Explore the interface',
+            'Review sprites, stage, blocks',
+            'Animate a sprite with keyboard or click'
           ],
-          project: 'Malaysian traditional games modernized'
+          project: 'Creative "Meet My Sprite" intro'
         },
         {
           week: 2,
-          topic: 'Advanced Data Structures',
+          topic: 'Events and Sequences',
           concepts: [
-            'Multi-dimensional lists',
-            'Complex data management',
-            'Data persistence',
-            'Dynamic content generation'
+            'Explore event-driven programming (green flag, clicks, broadcasts)',
+            'Use sequencing to control sprite actions'
           ],
-          project: 'Malaysian biodiversity database'
+          project: 'Sprite Talent Show (dance, talk, sing on command)'
         },
         {
           week: 3,
-          topic: 'Message Broadcasting',
+          topic: 'Loops in Motion',
           concepts: [
-            'Advanced event handling',
-            'Multiple broadcast channels',
-            'State synchronization',
-            'Event-driven programming'
+            'Understand repeat and forever',
+            'Loop sprite movements and costume changes'
           ],
-          project: 'Multi-player Malaysian card game'
+          project: 'Dance party or fireworks scene with looping'
         },
         {
           week: 4,
-          topic: 'Cloning & Parallel Execution',
+          topic: 'Storytelling Through Code',
           concepts: [
-            'Sprite cloning',
-            'Memory management',
-            'Parallel processes',
-            'Performance optimization'
+            'Scenes, costumes, and sprite dialogue',
+            'Storyboard planning',
+            'Using wait, say, next costume, and background switch'
           ],
-          project: 'Malaysian night market simulator'
+          project: 'Animated short story or comic strip'
         },
         {
           week: 5,
-          topic: 'AI & Algorithms',
+          topic: 'Keyboard Control & Motion',
           concepts: [
-            'Basic AI concepts',
-            'Pathfinding',
-            'Decision trees',
-            'Game AI implementation'
+            'Use arrow keys or WASD to control movement',
+            'Pointing directions, gliding, jumping'
           ],
-          project: 'Malaysian wildlife simulation'
+          project: 'Maze Escape or Space Travel'
         },
         {
           week: 6,
-          topic: 'Final Project',
+          topic: 'Variables and Scoring Systems',
           concepts: [
-            'Project architecture',
-            'Advanced features',
-            'Testing and debugging',
-            'Performance optimization'
+            'Intro to variables',
+            'Create a scoreboard',
+            'Use variables for points, lives, or timers'
           ],
-          project: 'Complete Malaysian-themed game'
+          project: 'Catch the Falling Objects or Obstacle Dodge'
+        },
+        {
+          week: 7,
+          topic: 'Conditions and Challenges',
+          concepts: [
+            'Use if and if-else blocks',
+            'Add win/lose conditions',
+            'Create reactions for touching colors or sprites'
+          ],
+          project: 'Platformer or "Avoid the Enemy" game'
+        },
+        {
+          week: 8,
+          topic: 'Cloning & Level Design',
+          concepts: [
+            'Use create clone of',
+            'Change levels with broadcasts',
+            'Design multi-screen games'
+          ],
+          project: 'Add a second level to any past project'
+        },
+        {
+          week: 9,
+          topic: 'Quiz & Interactive Games',
+          concepts: [
+            'Design a question/answer system',
+            'Add feedback using say, think, or color changes',
+            'Use timers and score updates'
+          ],
+          project: 'Build a "Guess the Flag" or "Math Quiz" game'
+        },
+        {
+          week: 10,
+          topic: 'Polish & Design Thinking',
+          concepts: [
+            'UI elements: buttons, instructions, and menus',
+            'Sound design: adding background music and effects',
+            'Debugging: fixing movement issues, timing bugs'
+          ],
+          project: 'Refine any past project into a polished version'
+        },
+        {
+          week: 11,
+          topic: 'Final Project Development',
+          concepts: [
+            'Choose: animation, game, quiz, or simulation',
+            'Plan scenes, characters, interactions',
+            'Build with guidance and creativity'
+          ],
+          project: 'Final Project'
+        },
+        {
+          week: 12,
+          topic: 'Final Showcase & Presentation',
+          concepts: [
+            'Present their finished game/story/quiz',
+            'Receive feedback and certificates',
+            'Share Scratch links or record demo videos'
+          ],
+          project: 'Final showcase and presentation'
         }
       ],
       icon: <Trophy size={24} />,
